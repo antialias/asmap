@@ -1,4 +1,4 @@
-# smapper
+# smap
 Applies a sourcemap to a line and offset to tell you where the original code is.
 
 ##installation:
