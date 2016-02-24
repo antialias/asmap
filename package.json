@@ -1,0 +1,31 @@
+{
+  "name": "smap",
+  "version": "1.0.0",
+  "description": "give it --url --line and --offset and it will tell you where to find the mapped code",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitlint": "node_modules/.bin/dibslint --git --warnings",
+    "lint": "dibslint --root=."
+  },
+  "bin": "index",
+  "main": "index",
+  "pre-commit": {
+    "run": [
+      "gitlint"
+    ]
+  },
+  "devDependencies": {
+    "dibslint": "^1.2.4",
+    "mocha": "^2.3.4",
+    "pre-commit": "^1.1.2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "es6-promisify": "^3.0.0",
+    "request": "^2.69.0",
+    "source-map": "^0.5.3",
+    "source-map-resolve": "^0.4.0",
+    "yargs": "^4.2.0"
+  }
+}
