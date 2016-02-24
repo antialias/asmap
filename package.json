@@ -1,6 +1,6 @@
 {
   "name": "asmap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "give it --url --line and --offset and it will tell you where to find the mapped code",
   "author": "",
   "scripts": {
