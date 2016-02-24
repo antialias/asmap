@@ -1,6 +1,6 @@
 {
   "name": "smap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "give it --url --line and --offset and it will tell you where to find the mapped code",
   "author": "",
   "scripts": {
