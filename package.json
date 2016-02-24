@@ -8,8 +8,8 @@
     "gitlint": "node_modules/.bin/dibslint --git --warnings",
     "lint": "dibslint --root=."
   },
-  "bin": "index",
-  "main": "index",
+  "bin": "index.js",
+  "main": "index.js",
   "pre-commit": {
     "run": [
       "gitlint"

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var SourceMapConsumer = require('source-map').SourceMapConsumer;
 var argv = require('yargs').argv;
 var fs = require('fs');
