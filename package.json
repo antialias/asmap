@@ -5,10 +5,12 @@
   "author": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gitlint": "node_modules/.bin/dibslint --git --warnings",
+    "gitlint": "dibslint --git --warnings",
     "lint": "dibslint --root=."
   },
-  "bin": "index.js",
+  "bin": {
+    "asmap": "index.js"
+  },
   "main": "index.js",
   "pre-commit": {
     "run": [
@@ -27,5 +29,16 @@
     "source-map": "^0.5.3",
     "source-map-resolve": "^0.4.0",
     "yargs": "^4.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antialias/asmap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antialias/asmap/issues"
+  },
+  "homepage": "https://github.com/antialias/asmap#readme"
 }
